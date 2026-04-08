@@ -120,7 +120,7 @@ function disableTLSValidation() {
     if(Java.available){
         platformConfig = config["android"]
     }
-    else if(Java.available || Swift.available){
+    else if(Process.platform === 'darwin'){
         platformConfig = config["ios"]
     }
     else if(Process.platform in config){
