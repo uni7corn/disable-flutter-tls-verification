@@ -65,7 +65,8 @@ var config = {
         }
     }
 };
-console.log("[+] Pattern version: May 19 2025")
+
+console.log("[+] Pattern version: Jan 26 2026")
 console.log("[+] Arch:", Process.arch)
 console.log("[+] Platform: ", Process.platform)
 // Flag to check if TLS validation has already been disabled
